@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <div style="color:green;font-size:49px;">
+            <script language="JavaScript">
+           
+           $od = strtotime('2013-01-13 14:00:00'); // $od w sekundach od 1.1.1970
+$do = strtotime('2013-01-14 16:45:00'); // $do w sekundach od 1.1.1970
+
+$roznica = abs($od - $do); // roznica w sekundach. Funkcja abs podaje wartosc bezwzgledna argumentu, w przypadku gdy 'do' jest wieksze niz 'od' tak jak w podanym przez Ciebie przypadku
+
+// pozniej juz mozemy operowac na wartosci w sekundach. 1 minuta = 60 sekund, zatem...
+
+$roznica_minuty = floor($roznica / 60); // wartosc calkowita dzielenia sekund przez 60 daje liczbe minut
+$roznica_sekundy = $roznica % 60; // reszta z dzielenia sekund przez 60 daje liczbe sekund
+
+
+            
+            </script>
+            </div>
+        </body>
+        </html>
