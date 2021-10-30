@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <div style="color:black;font-size:50px;">
+            <script language="JavaScript">
+            var x1_maz=prompt(" x1 =","");
+            var x2_maz=prompt(" x2 =","");
+            var L=prompt(" Liczb liter imiona =","");
+
+            document.write("Wczytane liczby: ","<br>");
+
+            document.write("x1:"+x1_maz+"<br>","x2:"+x2_maz+"","<br>");
+
+            document.write("<br>");   
+
+                y=3*Math.pow(x1_maz,L/(L+2))
+
+            document.write("y=3*x1^(liczba liter imiona/liczba liter imiona + 2)= ",+y+"<br>");
+
+
+
+
+            document.write("<br>");    
+
+                y1=2*Math.cos(x1_maz) + 2*Math.sin(x1_maz)
+
+            document.write("y1= 2*cosx1 + 2*sinx1= ",+y1+"<br>");    
+
+
+                y2=Math.pow(Math.pow(x1_maz,5) + 2 * Math.pow(x2_maz,4),1/3)*[x1_maz - x2_maz]
+
+                document.write("<br>");  
+
+                document.write("y2=Pierwiastek 3 stopnia z ((x1)^5 + * (x2)^4) * |x1 - x2|= ",+y2+"<br>");
+       
+            </script>
+            </div>
+        </body>
+        </html>
