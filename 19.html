@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="UTF-8">
+ 
+ 
+</head>
+<body>
+ 
+<script type="text/javascript">
+function pole()
+{
+    var a= parseInt(document.getElementById("dlugosc1")).value;
+    var b= parseInt(document.getElementById("dlugosc2")).value;
+    var p= a*b;
+    
+document.write("Pole prostokątu: "+p);
+}
+function obwod()
+{
+    var a= parseInt(document.getElementById("dlugosc1")).value;
+    var b= parseInt(document.getElementById("dlugosc2")).value;
+    var o= 2*a+2*b;
+ 
+document.write("Obwód prostokąta: "+o);
+}
+</script>
+ 
+<h1>PROSTOKĄT</h1>
+Podaj długość boku a:    <input type="text" id="dlugosc1"><br>
+Podaj długość boku b:    <input type="text" id="dlugosc2">
+<br>
+ 
+<input type="button" name="pole" value="Pole" Onclick="pole()">
+ 
+<input type="button" name="obwod" value="Obwod" Onclick="obwod()">
+ 
+ 
+ 
+</body>
+</html>
